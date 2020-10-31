@@ -11,6 +11,7 @@
 		1DBB7889254DE78000DD4CAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB7888254DE78000DD4CAA /* ContentView.swift */; };
 		1DBB788B254DE78300DD4CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB788A254DE78300DD4CAA /* Assets.xcassets */; };
 		1DBB788E254DE78300DD4CAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBB788D254DE78300DD4CAA /* Preview Assets.xcassets */; };
+		1DBB7897254DE7AC00DD4CAA /* PullRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB7896254DE7AC00DD4CAA /* PullRequestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1DBB788A254DE78300DD4CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DBB788D254DE78300DD4CAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1DBB788F254DE78300DD4CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBB7896254DE7AC00DD4CAA /* PullRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRequestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1DBB7886254DE78000DD4CAA /* SwiftUIButtonStylesApp.swift */,
 				1DBB7888254DE78000DD4CAA /* ContentView.swift */,
+				1DBB7896254DE7AC00DD4CAA /* PullRequestView.swift */,
 				1DBB788A254DE78300DD4CAA /* Assets.xcassets */,
 				1DBB788F254DE78300DD4CAA /* Info.plist */,
 				1DBB788C254DE78300DD4CAA /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DBB7897254DE7AC00DD4CAA /* PullRequestView.swift in Sources */,
 				1DBB7889254DE78000DD4CAA /* ContentView.swift in Sources */,
 				1DBB7887254DE78000DD4CAA /* SwiftUIButtonStylesApp.swift in Sources */,
 			);

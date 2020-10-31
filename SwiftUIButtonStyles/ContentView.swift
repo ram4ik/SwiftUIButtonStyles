@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        PullRequestView(
+            name: "Fixed SwiftUI Login",
+            appName: "iPhone 12 mini",
+            pullRequestID: 42,
+            sourceBranch: "Development",
+            destinationBranch: "Master"
+        )
     }
 }
 
